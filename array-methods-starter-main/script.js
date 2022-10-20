@@ -8,6 +8,7 @@ const calculateWealthBtn = document.getElementById('calculate-wealth')
 
 // initialize array
 let data = []
+const paul = ''
 async function getRandomUser() {
   const res = await fetch('https://randomuser.me/api')
 
@@ -80,4 +81,4 @@ function formatMoney(number) {
 // event listeners
 // här lägger ni eventlisteners till alla knappar i menyn
 
-addUserBtn.addEventListener('click',getRandomUser)
+addUserBtn.addEventListener('click', getRandomUser)
